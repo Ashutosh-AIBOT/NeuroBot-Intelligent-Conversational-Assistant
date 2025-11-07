@@ -1,0 +1,128 @@
+# ==========================================
+# 🧠 PYTHON & PROJECT BASICS
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.db
+*.sqlite3
+*.log
+*.pid
+*.bak
+*.tmp
+*.swp
+.DS_Store
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python package cache
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.manifest
+*.spec
+
+# Jupyter and notebooks
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# ==========================================
+# ⚙️ STREAMLIT / WEB APP FILES
+# ==========================================
+.streamlit/secrets.toml
+.streamlit/config.toml
+frontend/__pycache__/
+frontend/node_modules/
+frontend/.next/
+frontend/build/
+frontend/dist/
+frontend/package-lock.json
+frontend/yarn.lock
+
+# ==========================================
+# 🧩 AI / ML / LANGCHAIN FILES
+# ==========================================
+# Model checkpoints and embeddings
+*.pt
+*.h5
+*.ckpt
+*.weights
+*.bin
+*.model
+*.jsonl
+models/
+checkpoints/
+runs/
+outputs/
+saved_models/
+cache/
+langchain_store/
+vectorstore/
+chroma/
+faiss_index/
+index.faiss
+*.npy
+*.pkl
+
+# ==========================================
+# 🔑 CREDENTIALS & CONFIGS
+# ==========================================
+# API keys, tokens, secrets
+*.key
+*.pem
+*.json
+*.yaml
+*.yml
+*.env
+.env.local
+.env.production
+openai_api_key.txt
+credentials.json
+token.json
+config.json
+secrets.json
+secrets/
+__secrets__/
+keys/
+private/
+auth/
+
+# ==========================================
+# 🧰 SYSTEM / IDE FILES
+# ==========================================
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# ==========================================
+# 🚀 OTHER OPTIONAL EXCLUSIONS
+# ==========================================
+# Data and temp directories
+data/
+dataset/
+datasets/
+tmp/
+temp/
+logs/
+uploads/
+user_uploads/
+downloads/
+test_results/
+reports/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

@@ -1,4 +1,6 @@
-﻿aiosqlite==0.21.0
+# That project i made with campusx sir lecture while learning the langgraph and langchain. -- Thank you so much sir -> 'CampusX'
+
+aiosqlite==0.21.0
 altair==5.5.0
 annotated-types==0.7.0
 anyio==4.9.0
@@ -35,9 +37,6 @@ langgraph-prebuilt==0.6.1
 langgraph-sdk==0.2.0
 langsmith==0.4.8
 MarkupSafe==3.0.2
-
-
-# That project i made with campusx sir lecture while learning the langgraph and langchain. -- Thank you so much sir -> 'CampusX'
 narwhals==2.0.1
 numpy==2.3.2
 openai==1.98.0
@@ -78,4 +77,5 @@ urllib3==2.5.0
 watchdog==6.0.0
 xxhash==3.5.0
 zstandard==0.23.0
+
 
